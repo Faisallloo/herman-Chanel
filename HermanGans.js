@@ -23,9 +23,9 @@ const starts = async (dha = new WAConnection()) => {
 		width: 80,
 		whitespaceBreak: false
 	}), 'cyan'))
-	console.log(color('[ GO 1K SUBSCRIBE ]\n', 'yellow'), color('Subscribe Herman Chanel', 'yellow'))
+	console.log(color('[ GO 1K SUBSCRIBE ]\n', 'yellow'), color('Subscribe Faisal Gaming', 'yellow'))
 	console.log(color('GA SUBSCRIBE BAKAL EROR:V', 'pink'))
-	console.log(color('\n\n[ FOLOW IG @cal_me_herman', 'red'))
+	console.log(color('\n\n[ FOLOW IG Paicong', 'red'))
 	dha.browserDescription = ["herman", "Chrome", "3.0.0"];
 
 	// Menunggu QR
@@ -89,7 +89,7 @@ const spinner = {
 
 	//connect
 	dha.on('open', () => {
-		console.log(color('[ Herman Chanel ]', 'yellow'), color('BOT SUDAH AKTIF'));
+		console.log(color('[ Herman Chanel ]', 'yellow'), color('BOT CONNECT'));
 	})
 
 	// session
